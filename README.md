@@ -27,4 +27,10 @@
 
 * El fuel no es un numero es una bara.
 
-* 
+* Los eventos para ocultar cosas o mostrar cosas, sustituir una imagen por otra.
+
+* Para el movimiento de la nave.
+
+* La esplosion no esta terminada he comentado el codigo que estaba implemetando para ello.
+
+* Todo el resto es como nos lo diste.
