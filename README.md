@@ -1,4 +1,4 @@
-## LanderLansana
+# LanderLansana
 #Cambios en el html:
 
 *El nombre de los archivos d.css y m.css a vertical.css y horizontal.css, tambien el index.html y el js.js a 
