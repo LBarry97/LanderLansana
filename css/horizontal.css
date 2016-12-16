@@ -1,0 +1,125 @@
+body,html{
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+.a,.b,.sobre,.comojugar{background-image:url("../img/fondoestrellado.jpg");}
+.c{
+	background-image:url("../img/fondoestrellado.jpg");
+	display:block !important
+}
+.comojugar{
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	display:none;
+	z-index:1;
+}
+.sobre{
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	display:none;
+	z-index:1;
+}
+.a,.b,.c{
+	width:33.33%;
+	height:100%;
+	float:left;
+}
+.d{
+	height:10%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	z-index:0;
+}
+#nave{
+	text-align:center;
+	position:fixed;
+	width:100%;
+	height:20%
+}
+#nave img{
+	position:absolute;
+	height:100%;
+}
+#cpanel{
+    border:4px solid #28E61D;
+	width:213px;
+	margin-left:1%;
+	padding:0px;
+}
+#hidem,#showm{
+	display:none
+}
+#menu #atras{
+	display:none
+}
+li{
+	padding:5px;
+}
+ul{
+	
+	color:white;
+	font-size:large;
+	font-family:sans-serif;
+	text-shadow:2px 2px red;
+	list-style:none;
+}
+#blanco{
+	width:150px;
+	height:20px;
+	background-color:white;
+	display:inline-block;
+	margin-left:5px;
+}
+#rojo{
+	width:75%;
+	height:20px;
+	background-color:#ff00fc;
+}
+#menu{
+	position:fixed;
+	display:table-cell;
+    border:4px solid #28E61D;
+	width:140px;
+	padding:0px;
+	margin-left:22%;
+}
+#potencia{
+	position:fixed;
+	margin-left:95%;
+}
+#menu li:hover{
+	color:#28E61D;
+}
+.sobre #atras2:hover{
+	color:#28E61D;
+}
+.sobre #atras2{
+	margin-left: 95%;
+	margin-top: -10%;
+}
+.comojugar #atras1:hover{
+	color:#28E61D;
+}
+.comojugar #atras1{
+	margin-left: 95%;
+	margin-top: -13%;
+}
+#esplosion{
+	display:none;
+	text-align:center;
+	position:fixed;
+	width:100%;
+	height:20%
+}
+#esplosion #boom{
+	position:absolute;
+	height:100%;
+}
